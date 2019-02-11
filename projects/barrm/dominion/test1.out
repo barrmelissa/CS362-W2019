@@ -1,0 +1,113 @@
+
+*****************************
+*****************************
+START OF UNIT TESTS
+*****************************
+*****************************
+
+**********************
+unittest1.c -> TESTING the function endTurn():
+**********************
+
+Testing with 2 players.
+
+Testing player 1 out of 2 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 2 out of 2 players.
+PASS: current player is equal to current turn
+PASS: everyone got a turn, returned back to first player
+
+Testing with 3 players.
+
+Testing player 1 out of 3 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 2 out of 3 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 3 out of 3 players.
+PASS: current player is equal to current turn
+PASS: everyone got a turn, returned back to first player
+
+Testing with 4 players.
+
+Testing player 1 out of 4 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 2 out of 4 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 3 out of 4 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 4 out of 4 players.
+PASS: current player is equal to current turn
+PASS: everyone got a turn, returned back to first player
+***************************************
+Testing discard for 2 players.
+
+Testing player 1 out of 2 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 2 out of 2 players.
+PASS: player holds 5 cards at start of turn
+PASS: player ends turn, all cards discarded
+
+Testing discard for 3 players.
+
+Testing player 1 out of 3 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 2 out of 3 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 3 out of 3 players.
+PASS: player holds 5 cards at start of turn
+PASS: player ends turn, all cards discarded
+
+Testing discard for 4 players.
+
+Testing player 1 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 2 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 3 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 4 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: player ends turn, all cards discarded
+
+All tests passed!
+
+File 'dominion.c'
+Lines executed:20.96% of 563
+Creating 'dominion.c.gcov'
+

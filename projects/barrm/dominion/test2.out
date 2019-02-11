@@ -1,0 +1,71 @@
+
+**********************
+unittest2.c -> TESTING the function numHandCards():
+**********************
+
+****************
+Testing with 2 players
+
+Testing player 1
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 2
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+
+****************
+Testing with 3 players
+
+Testing player 1
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 2
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 3
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+
+****************
+Testing with 4 players
+
+Testing player 1
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 2
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 3
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 4
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+
+All tests passed!
+
+File 'dominion.c'
+Lines executed:25.93% of 563
+Creating 'dominion.c.gcov'
+

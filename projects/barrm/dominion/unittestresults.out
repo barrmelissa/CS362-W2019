@@ -1,0 +1,329 @@
+
+*****************************
+*****************************
+START OF UNIT TESTS
+*****************************
+*****************************
+
+**********************
+unittest1.c -> TESTING the function endTurn():
+**********************
+
+Testing with 2 players.
+
+Testing player 1 out of 2 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 2 out of 2 players.
+PASS: current player is equal to current turn
+PASS: everyone got a turn, returned back to first player
+
+Testing with 3 players.
+
+Testing player 1 out of 3 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 2 out of 3 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 3 out of 3 players.
+PASS: current player is equal to current turn
+PASS: everyone got a turn, returned back to first player
+
+Testing with 4 players.
+
+Testing player 1 out of 4 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 2 out of 4 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 3 out of 4 players.
+PASS: current player is equal to current turn
+PASS: ended turn, next player's turn
+
+Testing player 4 out of 4 players.
+PASS: current player is equal to current turn
+PASS: everyone got a turn, returned back to first player
+***************************************
+Testing discard for 2 players.
+
+Testing player 1 out of 2 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 2 out of 2 players.
+PASS: player holds 5 cards at start of turn
+PASS: player ends turn, all cards discarded
+
+Testing discard for 3 players.
+
+Testing player 1 out of 3 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 2 out of 3 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 3 out of 3 players.
+PASS: player holds 5 cards at start of turn
+PASS: player ends turn, all cards discarded
+
+Testing discard for 4 players.
+
+Testing player 1 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 2 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 3 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: next player (before their turn) holds 0 cards
+PASS: player ends turn, all cards discarded
+PASS: next player (now their turn) holds full hand
+
+Testing player 4 out of 4 players.
+PASS: player holds 5 cards at start of turn
+PASS: player ends turn, all cards discarded
+
+All tests passed!
+
+
+**********************
+unittest2.c -> TESTING the function numHandCards():
+**********************
+
+****************
+Testing with 2 players
+
+Testing player 1
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 2
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+
+****************
+Testing with 3 players
+
+Testing player 1
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 2
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 3
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+
+****************
+Testing with 4 players
+
+Testing player 1
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 2
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 3
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+PASS: turn ended, hand count back to 5
+
+Testing player 4
+PASS: original hand is 5
+PASS: drawing card adds 1 to total hand
+PASS: discarded randomly decided amount of cards
+
+All tests passed!
+
+
+**********************
+unittest3.c -> TESTING the function supplyCount():
+**********************
+
+****************
+Testing with 2 players
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+
+****************
+Testing with 3 players
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+
+****************
+Testing with 4 players
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: supply updated after card bought
+
+All tests passed!
+
+
+**********************
+unittest4.c -> TESTING the function gainCard():
+**********************
+
+****Testing discard pile****
+
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+
+****Testing hand count****
+
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+
+****Testing deck count****
+
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+
+****Testing supply count****
+
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+
+All tests passed!
+
+
+*****************************
+*****************************
+START OF CARD TESTS
+*****************************
+*****************************
+
+----------------- cardtest1.c -> Testing Card: great_hall ----------------
+TEST 1: +1 cards
+PASS: hand count has new card added and card discared
+PASS: deck count has new card subtracted and shuffles cards
+TEST 2: +1 action
+PASS: action added to total action count
+TEST 3: +1 discard
+PASS: card discarded, played card count updated
+
+All tests passed!
+
+
+----------------- cardtest2.c -> Testing Card: village ----------------
+TEST 1: +1 cards
+PASS: hand count has new card added and card discared
+PASS: deck count has new card subtracted and shuffles cards
+TEST 2: +2 actions
+FAIL: action added to total action count
+TEST 3: +1 discard
+PASS: card discarded, played card count updated
+
+ERROR: 1 tests failed
+
+----------------- cardtest3.c -> Testing Card: smithy ----------------
+TEST 1: +3 cards
+FAIL: hand count has new cards added and cards discared
+FAIL: deck count has new cards subtracted and shuffles cards
+TEST 3: +1 discard
+PASS: card discarded, played card count updated
+
+ERROR: 2 tests failed
+
+
+----------------- cardtest4.c -> Testing Card: adventurer ----------------
+TEST 1: revealing only 2 treasure cards
+PASS: handcount before card is played is at 5
+PASS: handcount after adventure card is played increases by 2 for 2 treasure cards
+PASS: added cards in handcount are indeed treasure cards
+PASS: added cards in handcount are indeed treasure cards
+TEST 2: discard count updates
+FAIL: discard count upated
+FAIL: shuffled and ran again, new discard count upated
+
+ERROR: 2 tests failed
+
+File 'dominion.c'
+Lines executed:38.72% of 563
+Creating 'dominion.c.gcov'
+

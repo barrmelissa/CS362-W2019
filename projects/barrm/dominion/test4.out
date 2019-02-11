@@ -1,0 +1,63 @@
+
+**********************
+unittest4.c -> TESTING the function gainCard():
+**********************
+
+****Testing discard pile****
+
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+PASS: discard pile increases after we run gaincard
+
+****Testing hand count****
+
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+PASS: hand count increases after we run gaincard
+
+****Testing deck count****
+
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+PASS: deck count increases after we run gaincard
+
+****Testing supply count****
+
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+PASS: supply count decreases after we run gaincard
+
+All tests passed!
+
+File 'dominion.c'
+Lines executed:30.73% of 563
+Creating 'dominion.c.gcov'
+

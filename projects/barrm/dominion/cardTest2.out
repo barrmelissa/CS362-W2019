@@ -1,0 +1,15 @@
+
+----------------- cardtest2.c -> Testing Card: village ----------------
+TEST 1: +1 cards
+PASS: hand count has new card added and card discared
+PASS: deck count has new card subtracted and shuffles cards
+TEST 2: +2 actions
+FAIL: action added to total action count
+TEST 3: +1 discard
+PASS: card discarded, played card count updated
+
+ERROR: 1 tests failed
+File 'dominion.c'
+Lines executed:34.10% of 563
+Creating 'dominion.c.gcov'
+

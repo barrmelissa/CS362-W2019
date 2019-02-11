@@ -1,0 +1,17 @@
+
+----------------- cardtest4.c -> Testing Card: adventurer ----------------
+TEST 1: revealing only 2 treasure cards
+PASS: handcount before card is played is at 5
+PASS: handcount after adventure card is played increases by 2 for 2 treasure cards
+PASS: added cards in handcount are indeed treasure cards
+PASS: added cards in handcount are indeed treasure cards
+TEST 2: discard count updates
+FAIL: discard count upated
+FAIL: shuffled and ran again, new discard count upated
+
+ERROR: 2 tests failed
+
+File 'dominion.c'
+Lines executed:38.72% of 563
+Creating 'dominion.c.gcov'
+

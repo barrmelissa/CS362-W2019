@@ -1,0 +1,42 @@
+
+**********************
+unittest3.c -> TESTING the function supplyCount():
+**********************
+
+****************
+Testing with 2 players
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+
+****************
+Testing with 3 players
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+
+****************
+Testing with 4 players
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: full supply initilized correctly at start of game
+PASS: supply updated after card bought
+
+All tests passed!
+
+File 'dominion.c'
+Lines executed:30.02% of 563
+Creating 'dominion.c.gcov'
+

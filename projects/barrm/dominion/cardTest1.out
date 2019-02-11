@@ -1,0 +1,22 @@
+
+*****************************
+*****************************
+START OF CARD TESTS
+*****************************
+*****************************
+
+----------------- cardtest1.c -> Testing Card: great_hall ----------------
+TEST 1: +1 cards
+PASS: hand count has new card added and card discared
+PASS: deck count has new card subtracted and shuffles cards
+TEST 2: +1 action
+PASS: action added to total action count
+TEST 3: +1 discard
+PASS: card discarded, played card count updated
+
+All tests passed!
+
+File 'dominion.c'
+Lines executed:32.86% of 563
+Creating 'dominion.c.gcov'
+
